@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Circulation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .info-section {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .info-section h2 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #ff6600;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer-link {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Info Circulation Manga Style</h1>
+    </header>
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#traffic">Info Trafic</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <section id="home" class="info-section">
+            <h2>Bienvenue sur Info Circulation</h2>
+            <p>Bienvenue sur votre source d'informations sur la circulation en temps réel, avec une touche de manga ! Restez informé des dernières mises à jour sur le trafic routier, les travaux, et bien plus encore.</p>
+        </section>
+        <section id="traffic" class="info-section">
+            <h2>Informations sur le Trafic</h2>
+            <p>Les dernières informations sur la circulation :</p>
+            <ul>
+                <li>Accident sur l'autoroute A1, voie de gauche bloquée.</li>
+                <li>Travaux sur le pont de l'Arc, circulation alternée.</li>
+                <li>Embouteillages signalés sur la rocade Est.</li>
+            </ul>
+        </section>
+        <section id="contact" class="info-section">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou suggestion, n'hésitez pas à nous <a href="mailto:info@circulationmanga.com">envoyer un email</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Info Circulation Manga Style | <a class="footer-link" href="#contact">Contact</a></p>
+    </footer>
+</body>
+</html>
